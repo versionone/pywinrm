@@ -2,6 +2,7 @@
 
 ### Developing
 - Added support for message encryption over HTTP when using NTLM
+- Added support for other PowerShell streams
 
 ### Version 0.2.2
 - Added support for CredSSP authenication (via requests-credssp)
