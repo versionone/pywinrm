@@ -1,5 +1,8 @@
 # Changelog
 
+### Developing
+- Added support for other PowerShell streams
+
 ### Version 0.3.1
 - Ensure server_cert_validation=ignore supersedes ca_trust_path/env overrides
 - Set minimum version of requests-credssp to support Kerberos auth over CredSSP and other changes
