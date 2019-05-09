@@ -94,8 +94,7 @@ class Session(object):
                 print("Warning: there was a problem converting the Powershell"
                       " error message: %s" % (e))
 
-        return new_errmsg.strip().encode('utf-8'), verbose.strip().encode('utf-8'), warning.strip().encode('utf-8');
-                    msg = new_msg.strip()
+        return new_errmsg.strip().encode('utf-8'), verbose.strip().encode('utf-8'), warning.strip().encode('utf-8')
 
     def _strip_namespace(self, xml):
         """strips any namespaces from an xml string"""
